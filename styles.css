@@ -1,0 +1,146 @@
+body
+{
+    background-color: #1B1717;
+    margin: 0;
+    width: 100vw;
+}
+.navBar
+{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    background-color:#1B1717 ;
+}
+.navBar div
+{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navBar div img
+{
+    width: 6.5rem;
+  
+    display: inline-block;
+}
+#participants
+{
+    padding: 5rem 1rem;
+    text-align: center;
+    column-count: 1;
+    border-top: 2px solid black;
+
+}
+.account
+{
+    display: inline-block;
+    width: 100%;
+}
+.account img
+{
+    width: 100%;
+}
+@media (min-width:641px)
+{
+    #participants
+    {
+        column-count: 2;
+        padding: 3rem 1rem;
+        text-align: center;
+        
+    }
+    .account
+    {
+        width: 50%;
+    }
+
+}
+@media (min-width:1007px)
+{
+    #participants
+    {
+        column-count:3;
+        text-align: center;
+        padding:10rem 8rem;
+    }
+    .account
+    {
+        height: 20rem;
+        width: 100%;
+    }
+    .account img 
+    {
+        height: 70%;
+        width: 90%;
+    }
+}
+.founder 
+{
+    width: 100vw;
+    text-align: center;
+    padding-top: 3rem;
+}
+.founders
+{
+    width: 40vw;
+    padding: 15px;
+    display: inline-block;
+    
+    
+}
+.main
+{
+    background-color: #EEEBDD;
+    height: 100vh;
+    padding-top: 6rem;
+}
+.founder img 
+{
+    width: 100%;
+    
+   
+    
+}
+.accountDetails
+{
+    
+    margin: 0 ;
+    bottom: 8rem;
+    text-align: center;
+    width: 100%;
+    
+    
+    
+}
+.accountDetails h4,h5
+{
+    font-family: 'Playfair Display SC', serif;
+    margin:0;
+    font-size: x-large;
+    text-align: center;
+}
+.accountDetails h5
+{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+@media (min-width:641px)
+{
+    .founders
+    {
+        width: 40vw;
+    }
+}
+@media (min-width:1008px)
+{
+    .founders img 
+    {
+        height: 100%;
+        width: 45%;
+    }
+}
+
+
+

@@ -1,0 +1,345 @@
+.photographClicked
+{
+    z-index: 1;
+    width: 80%;
+    box-shadow: 0 0 75px black;
+    border: 2px solid white;
+}
+h1
+{
+    font-size: 5rem;
+    font-family: 'Festive', cursive;
+    color: #EDEDED;
+}
+.columns h1
+{
+    font-size: xxx-large;
+}
+.columns li
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #EDEDED;
+    font-size: large;
+}
+body
+{
+    background-color: #171717;
+    width: 100vw;
+    margin: 0;
+}
+.naviStart img
+{
+    
+    width: 5rem;
+    
+}
+.naviStart
+{
+    background-color: #171717;
+    text-align: center;
+    height: 6rem;
+    border-bottom: 2px solid #444444;
+    width: 100%;
+}
+
+.naviStart li
+{
+    color: #EDEDED;
+    font-size: 2rem;
+    text-align: center;
+    width: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    
+
+
+#head
+{
+    text-align: center;
+    background-color: #171717;
+    padding-top: 10rem;
+}
+#head h1
+{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #EDEDED;
+}
+#head p
+{
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #EDEDED;
+}
+
+
+
+
+#cover div
+{
+    margin: 0 auto;
+    width: 50%;
+}
+#cover div img
+{
+    border: 2px solid #EDEDED;
+    width: 100%;
+}
+
+
+
+#photographs
+{
+    border-top: 1px solid #EDEDED;
+    text-align: center;
+    padding-top: 3rem;
+}
+#photographs div
+{
+    column-count: 4;
+    column-gap: 2px;
+    text-align: center;
+}
+
+#photographs img
+{
+    border: solid 4px white;
+    width: 90%;
+    break-inside: avoid;
+}
+#photographs img:hover
+{
+    width: 100%;
+   z-index: 1;
+   box-shadow: 0 0 20px #444444 ;
+}
+
+
+
+.navi
+{
+    width: 100%;
+    text-align: center;
+    margin:5rem 0;
+}
+.navi ul
+{
+    width: 80%;
+    margin:0 auto;
+}
+.navi ul li
+{
+    border: 2px dashed #EDEDED;
+    border-radius:15px ;
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navi ul a
+{
+    display: inline-block;
+    width:24rem;
+    color: #EDEDED;
+    text-decoration: none;
+}
+.navi ul li:hover
+{
+    background-color: #DA0037;
+    color: #EDEDED !important;
+}
+.active
+{
+    background-color: #444444;
+}
+
+
+
+#personalDetails
+{
+    
+    text-align: center;
+    margin-top: 3rem;
+    height: 100%;
+    border-top: 1px solid #EDEDED;
+    
+}
+
+#personalDetails .columns
+{
+    margin: 0 auto;
+    column-count: 1;
+    padding: 0 5rem;
+    
+}
+#personalDetails .columns div
+{
+   
+    text-align: left;
+    border: 1px solid #444444;
+}
+
+
+
+#achievements
+{
+    border-top: 1px solid #EDEDED;
+    height: 100%;
+}
+#achievements .columns
+{
+    margin: 0 auto;
+    
+    column-count: 1;
+    padding: 0 5rem;
+}
+#achievements .columns div
+{
+    padding-left: 2rem;
+    
+    border: 1px solid #444444;
+}
+@media (min-width:1024px)
+{
+    #personalDetails .columns{
+        column-count:3;
+
+    }
+    #personalDetails .columns div
+    {
+        
+    }
+    #photographs div
+    {
+        column-count: 3;
+    }
+    .naviStart img 
+    {
+        width: 5rem;
+    }
+    .naviStart
+    {
+        height:7rem;
+        text-align: center;
+    }
+    .naviStart li 
+    {
+        width: 10rem;
+        font-size: 2rem;
+    }
+    .naviStart ul 
+    {
+       display: none; 
+    }
+    #achievements .columns
+    {
+        column-count: 2;
+    }
+    #achievements .columns div
+    {
+       
+    }
+}
+@media  (min-width:601px ) and (max-width:1020px) {
+    #personalDetails .columns{
+        column-count:2;
+    }
+    #photographs div
+    {
+        column-count: 2;
+    }
+    #achievements .columns
+    {
+        column-count: 2;
+    }
+    .naviStart img 
+    {
+        width: 5rem;
+    }
+    .naviStart
+    {
+        height:7rem;
+        text-align: center;
+    }
+    .naviStart li 
+    {
+        width: 10rem;
+        font-size: 2rem;
+    }
+    .naviStart ul 
+    {
+       display: none; 
+    }
+}
+@media (max-width:414px) {
+    #head h1 
+    {
+        
+        font-size: 3.75rem;;
+    }
+    #head p
+    {
+        font-size: medium;
+    }
+    #head
+    {
+        margin:0 auto;
+        width: 28rem;
+    }
+    .naviStart
+    {
+        width: 28rem;
+    }
+    #cover
+    {
+        width: 28rem;
+    }
+    .navi
+    {
+        width: 28rem;
+    }
+    .navi ul 
+    {
+        padding: 0;
+    }
+    .navi ul a
+    {
+        width: 18rem;
+    }
+    .navi ul a li 
+    {
+        font-size: x-large;
+    }
+    #personalDetails
+    {
+        width: 27rem;
+    }
+    #personalDetails h1 
+    {
+        font-size: 4rem;
+    }
+    #personalDetails .columns
+    {
+        padding:0;
+    }
+    #achievements
+    {
+        width: 27rem;
+    }
+    #achievements .columns
+    {
+        padding: 0;
+    }
+    #photographs
+    {
+        width: 27rem;
+    }
+    #photographs div
+    {
+        column-count: 1;
+    }
+}
